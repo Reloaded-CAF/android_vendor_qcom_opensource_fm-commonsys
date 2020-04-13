@@ -16,7 +16,7 @@ LOCAL_SHARED_LIBRARIES := \
         liblog \
         libcutils
 
-LOCAL_C_INCLUDES += vendor/qcom/opensource/fm-commonsys/helium
+LOCAL_C_INCLUDES += vendor/qcom/opensource/commonsys/fm/helium
 
 LOCAL_MODULE := libqcomfm_jni
 LOCAL_MODULE_TAGS := optional
